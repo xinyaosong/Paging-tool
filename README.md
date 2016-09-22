@@ -7,7 +7,7 @@ This paging tool is just for dynamic list, it means your list items should be go
 
 2. Add <Paging {...props} /> component in the suitable position.
    
-    props should include two property and one method:
+    props should include two properties and one method:
 ```
   var props = {
     totalPage: [your data],
