@@ -18,7 +18,7 @@ This paging tool is just for dynamic list, it means your list items should be go
     1) contentLength = 10 means each page should contain 10 list items, this data should be consistent with your back-end function where to get the list data.
     2) getPageContent is a function to send a request and get the list items on the page your specified. The function should have one parameter, which is the start index when you search in the data base.
 
-3. Example:
+## Example:
 ```
   import Paging from [your path of 'paging.js']
   ...
