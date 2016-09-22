@@ -5,9 +5,7 @@ export default class Paging extends React.Component{
 		this.handleChange 		= this.handleChange.bind(this);
 		this.handleClick 		= this.handleClick.bind(this);
 		this.handleKeypress 		= this.handleKeypress.bind(this);
-		this.state 				= {
-									pageNumb: 1
-								}
+		this.state 			= {pageNumb: 1};
 	}
 	handleChange(event){
 		this.setState({
