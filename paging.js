@@ -58,7 +58,7 @@ export default class Paging extends React.Component{
 	handleKeypress(event){
 		var len, keycode, start, cur_page;
 		var len 					= this.props.contentLength;
-		var keycode 				= event.keyCode ? event.keyCode : event.which;
+		var keycode 					= event.keyCode ? event.keyCode : event.which;
 		if (keycode == 13){
 			cur_page 				= parseInt(this.input.value);
 
