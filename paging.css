@@ -1,0 +1,24 @@
+#paging{
+	background-color: #3a3a4f;
+	color: #fff;
+}
+#paging ul{
+	width: 260px;
+	padding-left: 0;
+	margin: 0 auto;
+}
+#paging ul>li{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+#paging ul>li:hover{
+	background-color: #6A6A7E
+}
+#paging ul input{
+	width: 50px;
+	color: #000;
+}
