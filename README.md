@@ -3,9 +3,9 @@ This paging tool is just for dynamic list, it means your list items should be go
 
 ## How to use
 
-1. Include bootstrap.css( or bootstrap.min.css) ,paging.css, react.js( or react.min.js), react-dom.js( or react-dom.min.js) file in      the <head>.
+1. Include bootstrap.css( or bootstrap.min.css ) , paging.css, react.js( or react.min.js ), react-dom.js( or react-dom.min.js ) file in the <head>.
 
-2. Add <Paging {...props} /> component in the suitable position.
+2. Add ```<Paging {...props} />``` component in the suitable position.
    
     props should include two properties and one method:
 ```
