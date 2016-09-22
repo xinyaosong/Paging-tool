@@ -17,7 +17,7 @@ This paging tool is just for dynamic list, it means your list items should be go
 ```
     1) contentLength = 10 means each page should contain 10 list items. 
     
-      This data should be consistent with your back-end function where to get the list data.
+      This data should be consistent with your back-end function where getting the list data.
       
     2) getPageContent is a function to send a request and get the list items on the page your specified. 
     
