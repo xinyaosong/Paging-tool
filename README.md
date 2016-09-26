@@ -3,7 +3,7 @@ This paging tool is just for dynamic list, it means your list items should be go
 
 ## How to use
 
-1. Include bootstrap.css( or bootstrap.min.css ) , paging.css, react.js( or react.min.js ), react-dom.js( or react-dom.min.js ) file in the  ```<head> ```.
+1. Include bootstrap.css( or bootstrap.min.css ) , react.js( or react.min.js ), react-dom.js( or react-dom.min.js ) file in the  ```<head> ```.
 
 2. Add ```<Paging {...props} />``` component in the suitable position.
    
@@ -19,13 +19,14 @@ This paging tool is just for dynamic list, it means your list items should be go
     
       This data should be consistent with your back-end function where getting the list data.
       
-    2) getPageContent is a function to send a request and get the list items on the page your specified. 
+    2) getPageContent is a function to send a request and get the list items on the page you specified. 
     
       The function should have one parameter, which is the start index when you search in the data base.
 
 ## Example:
 ```
   import Paging from [your path of 'paging.js']
+  import [your path of 'paging.css']
   ...
   
   render(){
